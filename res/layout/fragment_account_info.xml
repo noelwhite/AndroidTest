@@ -1,0 +1,396 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navygreen">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".AccountInformationActivity$PlaceholderFragment"
+        >
+
+        <TextView                 android:textSize="18dp"
+            android:text="Report Date: 01/10/2014"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Credit Birthday"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="11/03/2007"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Avg Account Age"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="7yrs 10mo"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Positive Accounts"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="8"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Negative Accounts"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="0"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Total Account Balances"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="$11,440.00"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Total Min. Payments"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="$30.00"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Amount Past Due"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="$0.00"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Revolving"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="1 open / 3 closed"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Mortgage"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="0 open / 0 closed"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Auto"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="0 open / 0 closed"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Undefined"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="4 open / 0 closed"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Public"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="0"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingLeft="5dp"             android:paddingRight="5dp"             android:paddingTop="10dp"             android:paddingBottom="10dp"             android:layout_marginBottom="5dp"             android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView                 android:textSize="18dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:background="@color/white"
+                android:text="Collection"/>
+
+            <TextView                 android:textSize="18dp"
+                android:textColor="@color/darkgrey"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:background="@color/white"
+                android:text="0"
+                />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

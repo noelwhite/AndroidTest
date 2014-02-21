@@ -1,0 +1,57 @@
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/bottomWidget"
+    android:background="@color/navygreen"
+    >
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/navygreen"
+        android:layout_gravity="bottom"
+        android:id="@+id/bestTableRowEver"
+    >
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            />
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/iconpersonalon"
+
+    />
+
+        <View
+            android:layout_width="165dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/iconbusinesson"
+            />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            />
+
+    </TableRow>
+</TableLayout>

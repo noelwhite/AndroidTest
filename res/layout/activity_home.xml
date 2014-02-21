@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navygreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableLayout
+            android:layout_marginTop="40dp"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/item1"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:src="@drawable/experianpersonaltile"
+                android:layout_marginRight="10dp"
+                android:tag="exppersonal"/>
+            <ImageView
+                android:id="@+id/item2"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:src="@drawable/transuniontile"
+                android:layout_marginLeft="10dp"
+                android:tag="trans"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/item3"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:src="@drawable/experiantile"
+                android:layout_marginRight="10dp"
+                android:tag="expbus"/>
+            <ImageView
+                android:id="@+id/item4"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:src="@drawable/dandbtile"
+                android:layout_marginLeft="10dp"
+                android:tag="dandb"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+
+
+            >
+
+            <ImageView
+                android:id="@+id/item5"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:src="@drawable/ficoupgradetile"
+                android:layout_marginRight="10dp"
+                android:tag="fico"/>
+            <ImageView
+                android:id="@+id/item6"
+                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="10dp"/>
+
+        </TableRow>
+
+        </TableLayout>
+        <!--<GridView-->
+            <!--android:id="@+id/gridview"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@color/navygreen"-->
+            <!--android:numColumns="2"-->
+            <!--android:verticalSpacing="20dp"-->
+            <!--android:useDefaultMargins="true"-->
+            <!--android:paddingTop="40dp"/>-->
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</FrameLayout>

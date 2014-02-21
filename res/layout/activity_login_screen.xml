@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/navygreen">
+
+
+
+    <ImageView
+        android:src="@drawable/creditera_logo_big_fotor"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="10dp"
+        android:minWidth="300dp"
+        android:minHeight="90dp"
+
+        />
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:text="Email@email.com"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:text="Log In"
+        android:layout_marginBottom="10dp"
+        android:background="@color/tangrey"
+        android:onClick="buttonClicked"/>
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:text="Back"
+        android:background="@color/tangrey"/>
+</LinearLayout>
